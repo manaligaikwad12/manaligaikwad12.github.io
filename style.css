@@ -145,13 +145,12 @@ section:last-child {
 .keySkills {
 	list-style-type:ul{
 	list-style: inside circle;width: 300px;
-	th {text-transform: uppercase;letter-spacing: 0.2em;font-size: 90%;border-bottom: 2px solid #111111; border-top: 1px solid #999;
-text-align: left;}};
+};
 	-moz-column-count:3;
 	-webkit-column-count:3;
 	column-count:3;
 	margin-bottom: 25px;
-	font-size: 1.1em;
+	font-size: 1em;
 	color: #444;
 }
 
