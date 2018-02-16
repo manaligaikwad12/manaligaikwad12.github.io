@@ -11,7 +11,11 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 display:block;
 }
 
-html, body {background: #181818; font-family: 'Roboto', sans-serif;; font-size: 16px; color: #222;}
+html, body {background-image: url("Header.jpg"); 
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+font-family: 'Roboto', sans-serif;; font-size: 16px; color: #222;}
 
 .clear {clear: both;}
 
@@ -25,7 +29,7 @@ p {
 #cv {
 	width: 90%;
 	max-width: 800px;
-	background: #f3f3f3;
+	background: rgba(243, 243, 243, 0.9);
 	margin: 30px auto;
 }
 
@@ -369,12 +373,7 @@ section:last-child {
 }
 
 .subList {
-    display: block;
-    list-style-type: disc;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 35px;
+	padding-left: 30px;
 }
 
 .sectionContent article ul li {
